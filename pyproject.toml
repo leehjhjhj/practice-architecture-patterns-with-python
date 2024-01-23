@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastuitest"
+version = "0.1.0"
+description = ""
+authors = ["leehjhjhj <tsukiakarii@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.109.0"
+fastui = "^0.4.0"
+uvicorn = "^0.26.0"
+pytest = "^7.4.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
